@@ -1,0 +1,30 @@
+.container {
+	max-width: 1560px;
+	margin: 0 auto;
+}
+.corner{
+    position: absolute;
+    width: 80px;
+    &.corner-1{
+        left: -17px;
+        top: -17px;
+        transform: scaleX(-1);
+    }
+    &.corner-2{
+        right: -17px;
+        top: -17px;
+    }
+    &.corner-3{
+        right: -17px;
+        bottom: -17px;
+        transform: scaleY(-1);
+    }
+    &.corner-4{
+        left: -17px;
+        bottom: -17px;
+    }
+}
+
+.animate__heartBeat{
+    animation-iteration-count: infinite;
+}

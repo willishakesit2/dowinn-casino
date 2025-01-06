@@ -1,0 +1,1920 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dowinn Casino</title>
+    <link rel="shortcut icon" href="images/favicon/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <script src="js/typed.js@2.0.12"></script>
+    <script src="js/jquery-3.2.1.slim.min.js" type="text/javascript"></script>
+    <script src="js/jquery-3.6.0.min.js" type="text/javascript"></script>
+    <script src="js/jquery.easy-ticker.min.js" type="text/javascript"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/odometer.min.js" type="text/javascript"></script>
+</head>
+<body>
+    <header>
+        <div class="top-content">
+            <div class="container">
+                <div class="logo-container animate__animated animate__fadeInDown">
+                    <img src="images/logo.png" alt="Dowinn logo"/>
+                </div>
+                <div class="nav">
+                    <a href="deposit.html"><i class="fa-solid fa-piggy-bank"></i> 입금신청</a>
+                    <a href="withdraw.html"><i class="fa-solid fa-vault"></i> 출금신청</a>
+                    <a href="event.html"><i class="fa-solid fa-martini-glass-citrus"></i>이벤트</a>
+                    <a href="notice.html"><i class="fa-solid fa-bell"></i>공지사항</a>
+                    <a href="customerservice.html"><i class="fa-solid fa-comment-dots"></i> 고객센터</a>
+                </div>
+                <!-- <form>
+                    <div class="form-group form-icon">
+                        <input type="email" placeholder="enter email" class="form-control">
+                        <div class="icon">
+                            <i class="fa-solid fa-user"></i>
+                        </div>
+                    </div>
+                    <div class="form-group form-icon">
+                      <input type="password" placeholder="enter password" class="form-control">
+                      <div class="icon">
+                        <i class="fas fa-unlock-alt" aria-hidden="true"></i>
+                      </div>
+                    </div>
+                    <button type="button" class="btn btn-circle btn-primary">
+                        <i class="fa-solid fa-right-to-bracket"></i>
+                    </button>
+                    <button type="button" class="btn btn-circle btn-secondary">
+                        <i class="fa-solid fa-user-plus"></i>
+                    </button>
+                </form> -->
+                <div class="user-profile">
+                    <a href="mypage.html" class="user">
+                        <i class="fa-solid fa-user-tie icon text-violet"></i>
+                        <span>Sung Jinwoo</span>
+                    </a>
+                    <a href="mypage.html" class="user">
+                        <i class="fa-solid fa-won-sign"></i>
+                        <span>999,999,999</span>
+                        <span>원</span>
+                    </a>
+                    <a href="mypage.html" class="user">
+                        <i class="fa-solid fa-star"></i>
+                        <span>999,999,999</span>
+                        <span>원</span>
+                    </a>
+                    <a href="#" type="button" class="btn btn-circle btn-secondary msg">
+                        <div class="count">88</div>
+                        <i class="fa-solid fa-envelope"></i>
+                    </a>
+                    <a href="index.html" type="button" class="btn btn-circle btn-primary">
+                        <i class="fa-solid fa-power-off"></i>
+                    </a>
+                </div>
+                <div class="mobile-nav">
+                    <button href="#" class="nav-toggle btn btn-secondary btn-circle">
+                        <i class="fa-solid fa-bars"></i>
+                    </button>
+                </div>
+                <div class="mobile-nav2">
+                    <button href="#" class="nav-toggle btn btn-secondary btn-circle">
+                        <i class="fa-solid fa-user"></i>
+                    </button>
+                </div>
+                <div class="mobile-content">
+                    <div class="nav-list">
+                        <a href="deposit.html"><i class="fa-solid fa-piggy-bank"></i> 입금신청</a>
+                        <a href="withdraw.html"><i class="fa-solid fa-vault"></i> 출금신청</a>
+                        <a href="event.html"><i class="fa-solid fa-martini-glass-citrus"></i>이벤트</a>
+                        <a href="notice.html"><i class="fa-solid fa-bell"></i>공지사항</a>
+                        <a href="customerservice.html"><i class="fa-solid fa-comment-dots"></i> 고객센터</a>
+                    </div>
+                </div>
+                <div class="mobile-content2">
+                    <div class="nav-list">
+                        <a href="mypage.html" class="user">
+                            <i class="fa-solid fa-user-tie icon text-violet"></i>
+                            <span>Sung Jinwoo</span>
+                        </a>
+                        <a href="mypage.html" class="user">
+                            <i class="fa-solid fa-won-sign"></i>
+                            <div>
+                                <span>999,999,999</span>
+                                <span>원</span>
+                            </div>
+                        </a>
+                        <a href="mypage.html" class="user">
+                            <i class="fa-solid fa-star"></i>
+                            <div>
+                                <span>999,999,999</span>
+                                <span>원</span>
+                            </div>
+                        </a>
+                        <div class="btns">
+                            <a href="#" type="button" class="btn btn-circle btn-secondary msg">
+                                <div class="count">88</div>
+                                <i class="fa-solid fa-envelope"></i>
+                            </a>
+                            <a href="index.html" type="button" class="btn btn-circle btn-primary">
+                                <i class="fa-solid fa-power-off"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="slide-section">
+            <div class="casino-guy">
+                <img src="images/elements/roulette-wheel.png" class="wheel" alt="Dowinn roulette wheel">
+                <img src="images/elements/guy.png" class="guy" alt="Dowinn man image">
+            </div>
+            <h1 id="typed2"></h1>
+            <a href="#" class="dowinn-play">
+                <button class="btn">
+                    ENTER DOWINN CASINO
+                </button>
+                <img src="images/elements/corner.png" class="corner corner-1" alt="Dowinn play button corner">
+                <img src="images/elements/corner.png" class="corner corner-2" alt="Dowinn play button corner">
+                <img src="images/elements/corner.png" class="corner corner-3" alt="Dowinn play button corner">
+                <img src="images/elements/corner-2.png" class="corner corner-4" alt="Dowinn play button corner">
+            </a>
+        </section>
+        <seciton class="main-section">
+            <img class="curtain curtain-1" src="images/elements/curtain.png">
+            <img class="curtain curtain-2" src="images/elements/curtain.png">
+            <div class="container">
+                <div class="providers-menu">
+                    <a href="javaScript:void(0)" class="casino-btn" data-val="casino">
+                        <div class="menu-banner">
+                            <div class="icon-wrapper">
+                                <i class="fa-solid fa-heart"></i>
+                            </div>
+                            <span>라이브 카지노</span>
+                        </div>
+                    </a>
+                    <a href="javaScript:void(0)" class="slot-btn" data-val="slot">
+                        <div class="menu-banner">
+                            <div class="icon-wrapper">
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                            <span>슬롯</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="game-providers">
+                    <div class="game-cards casino">
+                        <a class="game-card">
+                            <div class="body">
+                                <div class="game-img animate__animated  animate__bounceIn">
+                                    <img src="images/providers/casino-providers/dowinn.png"/>
+                                </div>
+                            </div>
+                            <div class="play-button">
+                                <button class="btn btn-secondary">게임입장</button>
+                            </div>
+                            <div class="footer">
+                                <div class="title">
+                                    <h5>두윈 라이브</h5>
+                                    <span>DOWINN</span>
+                                </div>
+                                <div class="logo-icon">
+                                    <img src="images/providers/casino-logo-providers/dowinn.png"/>
+                                </div>
+                            </div>
+                        </a>
+                        <a class="game-card">
+                            <div class="body">
+                                <div class="game-img animate__animated  animate__bounceIn">
+                                    <img src="images/providers/casino-providers/gameplay.png"/>
+                                </div>
+                            </div>
+                            <div class="play-button">
+                                <button class="btn btn-secondary">게임입장</button>
+                            </div>
+                            <div class="footer">
+                                <div class="title">
+                                    <h5>두윈 라이브</h5>
+                                    <span>GAMEPLAY</span>
+                                </div>
+                                <div class="logo-icon">
+                                    <img src="images/providers/casino-logo-providers/gameplay.png"/>
+                                </div>
+                            </div>
+                        </a>
+                        <a class="game-card">
+                            <div class="body">
+                                <div class="game-img animate__animated  animate__bounceIn">
+                                    <img src="images/providers/casino-providers/dreamgaming.png"/>
+                                </div>
+                            </div>
+                            <div class="play-button">
+                                <button class="btn btn-secondary">게임입장</button>
+                            </div>
+                            <div class="footer">
+                                <div class="title">
+                                    <h5>드림게임 라이브</h5>
+                                    <span>DREAMGAMING</span>
+                                </div>
+                                <div class="logo-icon">
+                                    <img src="images/providers/casino-logo-providers/dreamgaming.png"/>
+                                </div>
+                            </div>
+                        </a>
+                        <a class="game-card">
+                            <div class="body">
+                                <div class="game-img animate__animated  animate__bounceIn">
+                                    <img src="images/providers/casino-providers/microgaming.png"/>
+                                </div>
+                            </div>
+                            <div class="play-button">
+                                <button class="btn btn-secondary">게임입장</button>
+                            </div>
+                            <div class="footer">
+                                <div class="title">
+                                    <h5>마이크로게이밍 라이브</h5>
+                                    <span>microgaming</span>
+                                </div>
+                                <div class="logo-icon">
+                                    <img src="images/providers/casino-logo-providers/microgaming.png"/>
+                                </div>
+                            </div>
+                        </a>
+                        <a class="game-card">
+                            <div class="body">
+                                <div class="game-img animate__animated  animate__bounceIn">
+                                    <img src="images/providers/casino-providers/botaspeed.png"/>
+                                </div>
+                            </div>
+                            <div class="play-button">
+                                <button class="btn btn-secondary">게임입장</button>
+                            </div>
+                            <div class="footer">
+                                <div class="title">
+                                    <h5>보타스피드 라이브</h5>
+                                    <span>botaspeed</span>
+                                </div>
+                                <div class="logo-icon">
+                                    <img src="images/providers/casino-logo-providers/botaspeed.png"/>
+                                </div>
+                            </div>
+                        </a>
+                        <a class="game-card">
+                            <div class="body">
+                                <div class="game-img animate__animated  animate__bounceIn">
+                                    <img src="images/providers/casino-providers/vivo.png"/>
+                                </div>
+                            </div>
+                            <div class="play-button">
+                                <button class="btn btn-secondary">게임입장</button>
+                            </div>
+                            <div class="footer">
+                                <div class="title">
+                                    <h5>비보 라이브</h5>
+                                    <span>vivo</span>
+                                </div>
+                                <div class="logo-icon">
+                                    <img src="images/providers/casino-logo-providers/vivo.png"/>
+                                </div>
+                            </div>
+                        </a>
+                        <a class="game-card">
+                            <div class="body">
+                                <div class="game-img animate__animated  animate__bounceIn">
+                                    <img src="images/providers/casino-providers/bbin.png"/>
+                                </div>
+                            </div>
+                            <div class="play-button">
+                                <button class="btn btn-secondary">게임입장</button>
+                            </div>
+                            <div class="footer">
+                                <div class="title">
+                                    <h5>비비아이엔 라이브</h5>
+                                    <span>bbin</span>
+                                </div>
+                                <div class="logo-icon">
+                                    <img src="images/providers/casino-logo-providers/bbin.png"/>
+                                </div>
+                            </div>
+                        </a>
+                        <a class="game-card">
+                            <div class="body">
+                                <div class="game-img animate__animated  animate__bounceIn">
+                                    <img src="images/providers/casino-providers/sexy.png"/>
+                                </div>
+                            </div>
+                            <div class="play-button">
+                                <button class="btn btn-secondary">게임입장</button>
+                            </div>
+                            <div class="footer">
+                                <div class="title">
+                                    <h5>섹시게이밍 라이브</h5>
+                                    <span>sexy</span>
+                                </div>
+                                <div class="logo-icon">
+                                    <img src="images/providers/casino-logo-providers/sexy.png"/>
+                                </div>
+                            </div>
+                        </a>
+                        <a class="game-card">
+                            <div class="body">
+                                <div class="game-img animate__animated  animate__bounceIn">
+                                    <img src="images/providers/casino-providers/asiagaming.png"/>
+                                </div>
+                            </div>
+                            <div class="play-button">
+                                <button class="btn btn-secondary">게임입장</button>
+                            </div>
+                            <div class="footer">
+                                <div class="title">
+                                    <h5>아시아게이밍 라이브</h5>
+                                    <span>asiagaming</span>
+                                </div>
+                                <div class="logo-icon">
+                                    <img src="images/providers/casino-logo-providers/asiagaming.png"/>
+                                </div>
+                            </div>
+                        </a>
+                        <a class="game-card">
+                            <div class="body">
+                                <div class="game-img animate__animated  animate__bounceIn">
+                                    <img src="images/providers/casino-providers/oriental.png"/>
+                                </div>
+                            </div>
+                            <div class="play-button">
+                                <button class="btn btn-secondary">게임입장</button>
+                            </div>
+                            <div class="footer">
+                                <div class="title">
+                                    <h5>오리엔탈 라이브</h5>
+                                    <span>oriental</span>
+                                </div>
+                                <div class="logo-icon">
+                                    <img src="images/providers/casino-logo-providers/oriental.png"/>
+                                </div>
+                            </div>
+                        </a>
+                        <a class="game-card">
+                            <div class="body">
+                                <div class="game-img animate__animated  animate__bounceIn">
+                                    <img src="images/providers/casino-providers/allbet.png"/>
+                                </div>
+                            </div>
+                            <div class="play-button">
+                                <button class="btn btn-secondary">게임입장</button>
+                            </div>
+                            <div class="footer">
+                                <div class="title">
+                                    <h5>올벳 라이브</h5>
+                                    <span>allbet</span>
+                                </div>
+                                <div class="logo-icon">
+                                    <img src="images/providers/casino-logo-providers/allbet.png"/>
+                                </div>
+                            </div>
+                        </a>
+                        <a class="game-card">
+                            <div class="body">
+                                <div class="game-img animate__animated  animate__bounceIn">
+                                    <img src="images/providers/casino-providers/omg.png"/>
+                                </div>
+                            </div>
+                            <div class="play-button">
+                                <button class="btn btn-secondary">게임입장</button>
+                            </div>
+                            <div class="footer">
+                                <div class="title">
+                                    <h5>OMG 라이브</h5>
+                                    <span>omg</span>
+                                </div>
+                                <div class="logo-icon">
+                                    <img src="images/providers/casino-logo-providers/omg.png"/>
+                                </div>
+                            </div>
+                        </a>
+                        <a class="game-card">
+                            <div class="body">
+                                <div class="game-img animate__animated  animate__bounceIn">
+                                    <img src="images/providers/casino-providers/wmcasino.png"/>
+                                </div>
+                            </div>
+                            <div class="play-button">
+                                <button class="btn btn-secondary">게임입장</button>
+                            </div>
+                            <div class="footer">
+                                <div class="title">
+                                    <h5>WM카지노 라이브</h5>
+                                    <span>wmcasino</span>
+                                </div>
+                                <div class="logo-icon">
+                                    <img src="images/providers/casino-logo-providers/wmcasino.png"/>
+                                </div>
+                            </div>
+                        </a>
+                        <a class="game-card">
+                            <div class="body">
+                                <div class="game-img animate__animated  animate__bounceIn">
+                                    <img src="images/providers/casino-providers/evolution.png"/>
+                                </div>
+                            </div>
+                            <div class="play-button">
+                                <button class="btn btn-secondary">게임입장</button>
+                            </div>
+                            <div class="footer">
+                                <div class="title">
+                                    <h5>에볼루션 라이브</h5>
+                                    <span>evolution</span>
+                                </div>
+                                <div class="logo-icon">
+                                    <img src="images/providers/casino-logo-providers/evolution.png"/>
+                                </div>
+                            </div>
+                        </a>
+                        <a class="game-card">
+                            <div class="body">
+                                <div class="game-img animate__animated  animate__bounceIn">
+                                    <img src="images/providers/casino-providers/pragmatic.png"/>
+                                </div>
+                            </div>
+                            <div class="play-button">
+                                <button class="btn btn-secondary">게임입장</button>
+                            </div>
+                            <div class="footer">
+                                <div class="title">
+                                    <h5>프라그마틱 라이브</h5>
+                                    <span>pragmatic</span>
+                                </div>
+                                <div class="logo-icon">
+                                    <img src="images/providers/casino-logo-providers/pragmatic.png"/>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="game-cards slot inactive">
+                        <a class="game-card">
+                            <div class="body">
+                                <div class="game-img animate__animated  animate__bounceIn">
+                                    <img src="images/providers/slot-providers/1x2gaming.png"/>
+                                </div>
+                            </div>
+                            <div class="play-button">
+                                <button class="btn btn-secondary">게임입장</button>
+                            </div>
+                            <div class="footer">
+                                <div class="title">
+                                    <h5>1X2게이밍</h5>
+                                    <span>1x2gaming</span>
+                                </div>
+                                <div class="logo-icon">
+                                    <img src="images/providers/slot-logo-providers/1x2gaming.png"/>
+                                </div>
+                            </div>
+                        </a>
+                        <a class="game-card">
+                            <div class="body">
+                                <div class="game-img animate__animated  animate__bounceIn">
+                                    <img src="images/providers/slot-providers/gameart.png"/>
+                                </div>
+                            </div>
+                            <div class="play-button">
+                                <button class="btn btn-secondary">게임입장</button>
+                            </div>
+                            <div class="footer">
+                                <div class="title">
+                                    <h5>게임아트</h5>
+                                    <span>gameart</span>
+                                </div>
+                                <div class="logo-icon">
+                                    <img src="images/providers/slot-logo-providers/gameart.png"/>
+                                </div>
+                            </div>
+                        </a>
+                        <a class="game-card">
+                            <div class="body">
+                                <div class="game-img animate__animated  animate__bounceIn">
+                                    <img src="images/providers/slot-providers/gamzix.png"/>
+                                </div>
+                            </div>
+                            <div class="play-button">
+                                <button class="btn btn-secondary">게임입장</button>
+                            </div>
+                            <div class="footer">
+                                <div class="title">
+                                    <h5>게임직스</h5>
+                                    <span>gamzix</span>
+                                </div>
+                                <div class="logo-icon">
+                                    <img src="images/providers/slot-logo-providers/gamzix.png"/>
+                                </div>
+                            </div>
+                        </a>
+                        <a class="game-card">
+                            <div class="body">
+                                <div class="game-img animate__animated  animate__bounceIn">
+                                    <img src="images/providers/slot-providers/gameplay.png"/>
+                                </div>
+                            </div>
+                            <div class="play-button">
+                                <button class="btn btn-secondary">게임입장</button>
+                            </div>
+                            <div class="footer">
+                                <div class="title">
+                                    <h5>게임플레이</h5>
+                                    <span>gameplay</span>
+                                </div>
+                                <div class="logo-icon">
+                                    <img src="images/providers/slot-logo-providers/gameplay.png"/>
+                                </div>
+                            </div>
+                        </a>
+                        <a class="game-card">
+                            <div class="body">
+                                <div class="game-img animate__animated  animate__bounceIn">
+                                    <img src="images/providers/slot-providers/gamefishglobal.png"/>
+                                </div>
+                            </div>
+                            <div class="play-button">
+                                <button class="btn btn-secondary">게임입장</button>
+                            </div>
+                            <div class="footer">
+                                <div class="title">
+                                    <h5>게임피쉬</h5>
+                                    <span>gamefishglobal</span>
+                                </div>
+                                <div class="logo-icon">
+                                    <img src="images/providers/slot-logo-providers/gamefishglobal.png"/>
+                                </div>
+                            </div>
+                        </a>
+                        <a class="game-card">
+                            <div class="body">
+                                <div class="game-img animate__animated  animate__bounceIn">
+                                    <img src="images/providers/slot-providers/netgame.png"/>
+                                </div>
+                            </div>
+                            <div class="play-button">
+                                <button class="btn btn-secondary">게임입장</button>
+                            </div>
+                            <div class="footer">
+                                <div class="title">
+                                    <h5>넷게임</h5>
+                                    <span>netgame</span>
+                                </div>
+                                <div class="logo-icon">
+                                    <img src="images/providers/slot-logo-providers/netgame.png"/>
+                                </div>
+                            </div>
+                        </a>
+                        <a class="game-card">
+                            <div class="body">
+                                <div class="game-img animate__animated  animate__bounceIn">
+                                    <img src="images/providers/slot-providers/netent.png"/>
+                                </div>
+                            </div>
+                            <div class="play-button">
+                                <button class="btn btn-secondary">게임입장</button>
+                            </div>
+                            <div class="footer">
+                                <div class="title">
+                                    <h5>넷엔트</h5>
+                                    <span>netent</span>
+                                </div>
+                                <div class="logo-icon">
+                                    <img src="images/providers/slot-logo-providers/netent.png"/>
+                                </div>
+                            </div>
+                        </a>
+                        <a class="game-card">
+                            <div class="body">
+                                <div class="game-img animate__animated  animate__bounceIn">
+                                    <img src="images/providers/slot-providers/nolimitcity.png"/>
+                                </div>
+                            </div>
+                            <div class="play-button">
+                                <button class="btn btn-secondary">게임입장</button>
+                            </div>
+                            <div class="footer">
+                                <div class="title">
+                                    <h5>노리밋시티</h5>
+                                    <span>nolimitcity</span>
+                                </div>
+                                <div class="logo-icon">
+                                    <img src="images/providers/slot-logo-providers/nolimitcity.png"/>
+                                </div>
+                            </div>
+                        </a>
+                        <a class="game-card">
+                            <div class="body">
+                                <div class="game-img animate__animated  animate__bounceIn">
+                                    <img src="images/providers/slot-providers/dragoonsoft.png"/>
+                                </div>
+                            </div>
+                            <div class="play-button">
+                                <button class="btn btn-secondary">게임입장</button>
+                            </div>
+                            <div class="footer">
+                                <div class="title">
+                                    <h5>드라군소프트</h5>
+                                    <span>DRAGOONSOFT</span>
+                                </div>
+                                <div class="logo-icon">
+                                    <img src="images/providers/slot-logo-providers/dragoonsoft.png"/>
+                                </div>
+                            </div>
+                        </a>
+                        <a class="game-card">
+                            <div class="body">
+                                <div class="game-img animate__animated  animate__bounceIn">
+                                    <img src="images/providers/slot-providers/dreamtech.png"/>
+                                </div>
+                            </div>
+                            <div class="play-button">
+                                <button class="btn btn-secondary">게임입장</button>
+                            </div>
+                            <div class="footer">
+                                <div class="title">
+                                    <h5>드림테크</h5>
+                                    <span>dreamtech</span>
+                                </div>
+                                <div class="logo-icon">
+                                    <img src="images/providers/slot-logo-providers/dreamtech.png"/>
+                                </div>
+                            </div>
+                        </a>
+                        <a class="game-card">
+                            <div class="body">
+                                <div class="game-img animate__animated  animate__bounceIn">
+                                    <img src="images/providers/slot-providers/redtiger.png"/>
+                                </div>
+                            </div>
+                            <div class="play-button">
+                                <button class="btn btn-secondary">게임입장</button>
+                            </div>
+                            <div class="footer">
+                                <div class="title">
+                                    <h5>레드타이거</h5>
+                                    <span>redtiger</span>
+                                </div>
+                                <div class="logo-icon">
+                                    <img src="images/providers/slot-logo-providers/redtiger.png"/>
+                                </div>
+                            </div>
+                        </a>
+                        <a class="game-card">
+                            <div class="body">
+                                <div class="game-img animate__animated  animate__bounceIn">
+                                    <img src="images/providers/slot-providers/ladyluck.png"/>
+                                </div>
+                            </div>
+                            <div class="play-button">
+                                <button class="btn btn-secondary">게임입장</button>
+                            </div>
+                            <div class="footer">
+                                <div class="title">
+                                    <h5>레이디럭</h5>
+                                    <span>ladyluck</span>
+                                </div>
+                                <div class="logo-icon">
+                                    <img src="images/providers/slot-logo-providers/ladyluck.png"/>
+                                </div>
+                            </div>
+                        </a>
+                        <a class="game-card">
+                            <div class="body">
+                                <div class="game-img animate__animated  animate__bounceIn">
+                                    <img src="images/providers/slot-providers/revolvergaming.png"/>
+                                </div>
+                            </div>
+                            <div class="play-button">
+                                <button class="btn btn-secondary">게임입장</button>
+                            </div>
+                            <div class="footer">
+                                <div class="title">
+                                    <h5>리볼버게이밍</h5>
+                                    <span>REVOLVERGAMING</span>
+                                </div>
+                                <div class="logo-icon">
+                                    <img src="images/providers/slot-logo-providers/revolvergaming.png"/>
+                                </div>
+                            </div>
+                        </a>
+                        <a class="game-card">
+                            <div class="body">
+                                <div class="game-img animate__animated  animate__bounceIn">
+                                    <img src="images/providers/slot-providers/realtimegaming.png"/>
+                                </div>
+                            </div>
+                            <div class="play-button">
+                                <button class="btn btn-secondary">게임입장</button>
+                            </div>
+                            <div class="footer">
+                                <div class="title">
+                                    <h5>리얼타임게이밍</h5>
+                                    <span>realtimegaming</span>
+                                </div>
+                                <div class="logo-icon">
+                                    <img src="images/providers/slot-logo-providers/realtimegaming.png"/>
+                                </div>
+                            </div>
+                        </a>
+                        <a class="game-card">
+                            <div class="body">
+                                <div class="game-img animate__animated  animate__bounceIn">
+                                    <img src="images/providers/slot-providers/relax.png"/>
+                                </div>
+                            </div>
+                            <div class="play-button">
+                                <button class="btn btn-secondary">게임입장</button>
+                            </div>
+                            <div class="footer">
+                                <div class="title">
+                                    <h5>릴렉스</h5>
+                                    <span>relax</span>
+                                </div>
+                                <div class="logo-icon">
+                                    <img src="images/providers/slot-logo-providers/relax.png"/>
+                                </div>
+                            </div>
+                        </a>
+                        <a class="game-card">
+                            <div class="body">
+                                <div class="game-img animate__animated  animate__bounceIn">
+                                    <img src="images/providers/slot-providers/maverick.png"/>
+                                </div>
+                            </div>
+                            <div class="play-button">
+                                <button class="btn btn-secondary">게임입장</button>
+                            </div>
+                            <div class="footer">
+                                <div class="title">
+                                    <h5>마블릭</h5>
+                                    <span>MAVERICK</span>
+                                </div>
+                                <div class="logo-icon">
+                                    <img src="images/providers/slot-logo-providers/maverick.png"/>
+                                </div>
+                            </div>
+                        </a>
+                        <a class="game-card">
+                            <div class="body">
+                                <div class="game-img animate__animated  animate__bounceIn">
+                                    <img src="images/providers/slot-providers/microgaming.png"/>
+                                </div>
+                            </div>
+                            <div class="play-button">
+                                <button class="btn btn-secondary">게임입장</button>
+                            </div>
+                            <div class="footer">
+                                <div class="title">
+                                    <h5>마이크로게이밍</h5>
+                                    <span>microgaming</span>
+                                </div>
+                                <div class="logo-icon">
+                                    <img src="images/providers/slot-logo-providers/microgaming.png"/>
+                                </div>
+                            </div>
+                        </a>
+                        <a class="game-card">
+                            <div class="body">
+                                <div class="game-img animate__animated  animate__bounceIn">
+                                    <img src="images/providers/slot-providers/mobilots.png"/>
+                                </div>
+                            </div>
+                            <div class="play-button">
+                                <button class="btn btn-secondary">게임입장</button>
+                            </div>
+                            <div class="footer">
+                                <div class="title">
+                                    <h5>모빌랏</h5>
+                                    <span>MOBILOTS</span>
+                                </div>
+                                <div class="logo-icon">
+                                    <img src="images/providers/slot-logo-providers/mobilots.png"/>
+                                </div>
+                            </div>
+                        </a>
+                        <a class="game-card">
+                            <div class="body">
+                                <div class="game-img animate__animated  animate__bounceIn">
+                                    <img src="images/providers/slot-providers/betgamestv.png"/>
+                                </div>
+                            </div>
+                            <div class="play-button">
+                                <button class="btn btn-secondary">게임입장</button>
+                            </div>
+                            <div class="footer">
+                                <div class="title">
+                                    <h5>벳게임즈TV</h5>
+                                    <span>betgamestv</span>
+                                </div>
+                                <div class="logo-icon">
+                                    <img src="images/providers/slot-logo-providers/betgamestv.png"/>
+                                </div>
+                            </div>
+                        </a>
+                        <a class="game-card">
+                            <div class="body">
+                                <div class="game-img animate__animated  animate__bounceIn">
+                                    <img src="images/providers/slot-providers/booongo.png"/>
+                                </div>
+                            </div>
+                            <div class="play-button">
+                                <button class="btn btn-secondary">게임입장</button>
+                            </div>
+                            <div class="footer">
+                                <div class="title">
+                                    <h5>부운고</h5>
+                                    <span>booongo</span>
+                                </div>
+                                <div class="logo-icon">
+                                    <img src="images/providers/slot-logo-providers/booongo.png"/>
+                                </div>
+                            </div>
+                        </a>
+                        <a class="game-card">
+                            <div class="body">
+                                <div class="game-img animate__animated  animate__bounceIn">
+                                    <img src="images/providers/slot-providers/blueprint.png"/>
+                                </div>
+                            </div>
+                            <div class="play-button">
+                                <button class="btn btn-secondary">게임입장</button>
+                            </div>
+                            <div class="footer">
+                                <div class="title">
+                                    <h5>블루프린트</h5>
+                                    <span>BLUEPRINT</span>
+                                </div>
+                                <div class="logo-icon">
+                                    <img src="images/providers/slot-logo-providers/blueprint.png"/>
+                                </div>
+                            </div>
+                        </a>
+                        <a class="game-card">
+                            <div class="body">
+                                <div class="game-img animate__animated  animate__bounceIn">
+                                    <img src="images/providers/slot-providers/vivo.png"/>
+                                </div>
+                            </div>
+                            <div class="play-button">
+                                <button class="btn btn-secondary">게임입장</button>
+                            </div>
+                            <div class="footer">
+                                <div class="title">
+                                    <h5>비보</h5>
+                                    <span>vivo</span>
+                                </div>
+                                <div class="logo-icon">
+                                    <img src="images/providers/slot-logo-providers/vivo.png"/>
+                                </div>
+                            </div>
+                        </a>
+                        <a class="game-card">
+                            <div class="body">
+                                <div class="game-img animate__animated  animate__bounceIn">
+                                    <img src="images/providers/slot-providers/bbgames.png"/>
+                                </div>
+                            </div>
+                            <div class="play-button">
+                                <button class="btn btn-secondary">게임입장</button>
+                            </div>
+                            <div class="footer">
+                                <div class="title">
+                                    <h5>비비게임즈</h5>
+                                    <span>BBGAMES</span>
+                                </div>
+                                <div class="logo-icon">
+                                    <img src="images/providers/slot-logo-providers/bbgames.png"/>
+                                </div>
+                            </div>
+                        </a>
+                        <a class="game-card">
+                            <div class="body">
+                                <div class="game-img animate__animated  animate__bounceIn">
+                                    <img src="images/providers/slot-providers/bbin.png"/>
+                                </div>
+                            </div>
+                            <div class="play-button">
+                                <button class="btn btn-secondary">게임입장</button>
+                            </div>
+                            <div class="footer">
+                                <div class="title">
+                                    <h5>비비아이엔</h5>
+                                    <span>bbin</span>
+                                </div>
+                                <div class="logo-icon">
+                                    <img src="images/providers/slot-logo-providers/bbin.png"/>
+                                </div>
+                            </div>
+                        </a>
+                        <a class="game-card">
+                            <div class="body">
+                                <div class="game-img animate__animated  animate__bounceIn">
+                                    <img src="images/providers/slot-providers/skywind.png"/>
+                                </div>
+                            </div>
+                            <div class="play-button">
+                                <button class="btn btn-secondary">게임입장</button>
+                            </div>
+                            <div class="footer">
+                                <div class="title">
+                                    <h5>스카이윈드</h5>
+                                    <span>skywind</span>
+                                </div>
+                                <div class="logo-icon">
+                                    <img src="images/providers/slot-logo-providers/skywind.png"/>
+                                </div>
+                            </div>
+                        </a>
+                        <a class="game-card">
+                            <div class="body">
+                                <div class="game-img animate__animated  animate__bounceIn">
+                                    <img src="images/providers/slot-providers/spribe.png"/>
+                                </div>
+                            </div>
+                            <div class="play-button">
+                                <button class="btn btn-secondary">게임입장</button>
+                            </div>
+                            <div class="footer">
+                                <div class="title">
+                                    <h5>스프라이브</h5>
+                                    <span>spribe</span>
+                                </div>
+                                <div class="logo-icon">
+                                    <img src="images/providers/slot-logo-providers/spribe.png"/>
+                                </div>
+                            </div>
+                        </a>
+                        <a class="game-card">
+                            <div class="body">
+                                <div class="game-img animate__animated  animate__bounceIn">
+                                    <img src="images/providers/slot-providers/splitrock.png"/>
+                                </div>
+                            </div>
+                            <div class="play-button">
+                                <button class="btn btn-secondary">게임입장</button>
+                            </div>
+                            <div class="footer">
+                                <div class="title">
+                                    <h5>스프리트락</h5>
+                                    <span>splitrock</span>
+                                </div>
+                                <div class="logo-icon">
+                                    <img src="images/providers/slot-logo-providers/splitrock.png"/>
+                                </div>
+                            </div>
+                        </a>
+                        <a class="game-card">
+                            <div class="body">
+                                <div class="game-img animate__animated  animate__bounceIn">
+                                    <img src="images/providers/slot-providers/spearhead.png"/>
+                                </div>
+                            </div>
+                            <div class="play-button">
+                                <button class="btn btn-secondary">게임입장</button>
+                            </div>
+                            <div class="footer">
+                                <div class="title">
+                                    <h5>스피어헤드</h5>
+                                    <span>SPEARHEAD</span>
+                                </div>
+                                <div class="logo-icon">
+                                    <img src="images/providers/slot-logo-providers/spearhead.png"/>
+                                </div>
+                            </div>
+                        </a>
+                        <a class="game-card">
+                            <div class="body">
+                                <div class="game-img animate__animated  animate__bounceIn">
+                                    <img src="images/providers/slot-providers/slotmill.png"/>
+                                </div>
+                            </div>
+                            <div class="play-button">
+                                <button class="btn btn-secondary">게임입장</button>
+                            </div>
+                            <div class="footer">
+                                <div class="title">
+                                    <h5>슬롯밀</h5>
+                                    <span>slotmill</span>
+                                </div>
+                                <div class="logo-icon">
+                                    <img src="images/providers/slot-logo-providers/slotmill.png"/>
+                                </div>
+                            </div>
+                        </a>
+                        <a class="game-card">
+                            <div class="body">
+                                <div class="game-img animate__animated  animate__bounceIn">
+                                    <img src="images/providers/slot-providers/thunderkick.png"/>
+                                </div>
+                            </div>
+                            <div class="play-button">
+                                <button class="btn btn-secondary">게임입장</button>
+                            </div>
+                            <div class="footer">
+                                <div class="title">
+                                    <h5>썬더킥</h5>
+                                    <span>thunderkick</span>
+                                </div>
+                                <div class="logo-icon">
+                                    <img src="images/providers/slot-logo-providers/thunderkick.png"/>
+                                </div>
+                            </div>
+                        </a>
+                        <a class="game-card">
+                            <div class="body">
+                                <div class="game-img animate__animated  animate__bounceIn">
+                                    <img src="images/providers/slot-providers/ameba.png"/>
+                                </div>
+                            </div>
+                            <div class="play-button">
+                                <button class="btn btn-secondary">게임입장</button>
+                            </div>
+                            <div class="footer">
+                                <div class="title">
+                                    <h5>아메바</h5>
+                                    <span>AMEBA</span>
+                                </div>
+                                <div class="logo-icon">
+                                    <img src="images/providers/slot-logo-providers/ameba.png"/>
+                                </div>
+                            </div>
+                        </a>
+                        <a class="game-card">
+                            <div class="body">
+                                <div class="game-img animate__animated  animate__bounceIn">
+                                    <img src="images/providers/slot-providers/asiagaming.png"/>
+                                </div>
+                            </div>
+                            <div class="play-button">
+                                <button class="btn btn-secondary">게임입장</button>
+                            </div>
+                            <div class="footer">
+                                <div class="title">
+                                    <h5>아시아게이밍</h5>
+                                    <span>ASIAGAMING</span>
+                                </div>
+                                <div class="logo-icon">
+                                    <img src="images/providers/slot-logo-providers/asiagaming.png"/>
+                                </div>
+                            </div>
+                        </a>
+                        <a class="game-card">
+                            <div class="body">
+                                <div class="game-img animate__animated  animate__bounceIn">
+                                    <img src="images/providers/slot-providers/irondogstudio.png"/>
+                                </div>
+                            </div>
+                            <div class="play-button">
+                                <button class="btn btn-secondary">게임입장</button>
+                            </div>
+                            <div class="footer">
+                                <div class="title">
+                                    <h5>아이언도그</h5>
+                                    <span>IRONDOGSTUDIO</span>
+                                </div>
+                                <div class="logo-icon">
+                                    <img src="images/providers/slot-logo-providers/irondogstudio.png"/>
+                                </div>
+                            </div>
+                        </a>
+                        <a class="game-card">
+                            <div class="body">
+                                <div class="game-img animate__animated  animate__bounceIn">
+                                    <img src="images/providers/slot-providers/augustgaming.png"/>
+                                </div>
+                            </div>
+                            <div class="play-button">
+                                <button class="btn btn-secondary">게임입장</button>
+                            </div>
+                            <div class="footer">
+                                <div class="title">
+                                    <h5>어거스트게이밍</h5>
+                                    <span>AUGUSTGAMING</span>
+                                </div>
+                                <div class="logo-icon">
+                                    <img src="images/providers/slot-logo-providers/augustgaming.png"/>
+                                </div>
+                            </div>
+                        </a>
+                        <a class="game-card">
+                            <div class="body">
+                                <div class="game-img animate__animated  animate__bounceIn">
+                                    <img src="images/providers/slot-providers/evoplay.png"/>
+                                </div>
+                            </div>
+                            <div class="play-button">
+                                <button class="btn btn-secondary">게임입장</button>
+                            </div>
+                            <div class="footer">
+                                <div class="title">
+                                    <h5>에보플레이</h5>
+                                    <span>evoplay</span>
+                                </div>
+                                <div class="logo-icon">
+                                    <img src="images/providers/slot-logo-providers/evoplay.png"/>
+                                </div>
+                            </div>
+                        </a>
+                        <a class="game-card">
+                            <div class="body">
+                                <div class="game-img animate__animated  animate__bounceIn">
+                                    <img src="images/providers/slot-providers/omigaming.png"/>
+                                </div>
+                            </div>
+                            <div class="play-button">
+                                <button class="btn btn-secondary">게임입장</button>
+                            </div>
+                            <div class="footer">
+                                <div class="title">
+                                    <h5>오미게이밍</h5>
+                                    <span>omigaming</span>
+                                </div>
+                                <div class="logo-icon">
+                                    <img src="images/providers/slot-logo-providers/omigaming.png"/>
+                                </div>
+                            </div>
+                        </a>
+                        <a class="game-card">
+                            <div class="body">
+                                <div class="game-img animate__animated  animate__bounceIn">
+                                    <img src="images/providers/slot-providers/wazdan.png"/>
+                                </div>
+                            </div>
+                            <div class="play-button">
+                                <button class="btn btn-secondary">게임입장</button>
+                            </div>
+                            <div class="footer">
+                                <div class="title">
+                                    <h5>와즈단</h5>
+                                    <span>wazdan</span>
+                                </div>
+                                <div class="logo-icon">
+                                    <img src="images/providers/slot-logo-providers/wazdan.png"/>
+                                </div>
+                            </div>
+                        </a>
+                        <a class="game-card">
+                            <div class="body">
+                                <div class="game-img animate__animated  animate__bounceIn">
+                                    <img src="images/providers/slot-providers/woohoogames.png"/>
+                                </div>
+                            </div>
+                            <div class="play-button">
+                                <button class="btn btn-secondary">게임입장</button>
+                            </div>
+                            <div class="footer">
+                                <div class="title">
+                                    <h5>우후게임즈</h5>
+                                    <span>WOOHOOGAMES</span>
+                                </div>
+                                <div class="logo-icon">
+                                    <img src="images/providers/slot-logo-providers/woohoogames.png"/>
+                                </div>
+                            </div>
+                        </a>
+                        <a class="game-card">
+                            <div class="body">
+                                <div class="game-img animate__animated  animate__bounceIn">
+                                    <img src="images/providers/slot-providers/onetouch.png"/>
+                                </div>
+                            </div>
+                            <div class="play-button">
+                                <button class="btn btn-secondary">게임입장</button>
+                            </div>
+                            <div class="footer">
+                                <div class="title">
+                                    <h5>원터치</h5>
+                                    <span>onetouch</span>
+                                </div>
+                                <div class="logo-icon">
+                                    <img src="images/providers/slot-logo-providers/onetouch.png"/>
+                                </div>
+                            </div>
+                        </a>
+                        <a class="game-card">
+                            <div class="body">
+                                <div class="game-img animate__animated  animate__bounceIn">
+                                    <img src="images/providers/slot-providers/yggdrasil.png"/>
+                                </div>
+                            </div>
+                            <div class="play-button">
+                                <button class="btn btn-secondary">게임입장</button>
+                            </div>
+                            <div class="footer">
+                                <div class="title">
+                                    <h5>이그드라실</h5>
+                                    <span>YGGDRASIL</span>
+                                </div>
+                                <div class="logo-icon">
+                                    <img src="images/providers/slot-logo-providers/yggdrasil.png"/>
+                                </div>
+                            </div>
+                        </a>
+                        <a class="game-card">
+                            <div class="body">
+                                <div class="game-img animate__animated  animate__bounceIn">
+                                    <img src="images/providers/slot-providers/elk.png"/>
+                                </div>
+                            </div>
+                            <div class="play-button">
+                                <button class="btn btn-secondary">게임입장</button>
+                            </div>
+                            <div class="footer">
+                                <div class="title">
+                                    <h5>이엘케이</h5>
+                                    <span>elk</span>
+                                </div>
+                                <div class="logo-icon">
+                                    <img src="images/providers/slot-logo-providers/elk.png"/>
+                                </div>
+                            </div>
+                        </a>
+                        <a class="game-card">
+                            <div class="body">
+                                <div class="game-img animate__animated  animate__bounceIn">
+                                    <img src="images/providers/slot-providers/genesis.png"/>
+                                </div>
+                            </div>
+                            <div class="play-button">
+                                <button class="btn btn-secondary">게임입장</button>
+                            </div>
+                            <div class="footer">
+                                <div class="title">
+                                    <h5>제네시스</h5>
+                                    <span>genesis</span>
+                                </div>
+                                <div class="logo-icon">
+                                    <img src="images/providers/slot-logo-providers/genesis.png"/>
+                                </div>
+                            </div>
+                        </a>
+                        <a class="game-card">
+                            <div class="body">
+                                <div class="game-img animate__animated  animate__bounceIn">
+                                    <img src="images/providers/slot-providers/kalambagames.png"/>
+                                </div>
+                            </div>
+                            <div class="play-button">
+                                <button class="btn btn-secondary">게임입장</button>
+                            </div>
+                            <div class="footer">
+                                <div class="title">
+                                    <h5>칼람바</h5>
+                                    <span>KALAMBAGAMES</span>
+                                </div>
+                                <div class="logo-icon">
+                                    <img src="images/providers/slot-logo-providers/kalambagames.png"/>
+                                </div>
+                            </div>
+                        </a>
+                        <a class="game-card">
+                            <div class="body">
+                                <div class="game-img animate__animated  animate__bounceIn">
+                                    <img src="images/providers/slot-providers/quickspin.png"/>
+                                </div>
+                            </div>
+                            <div class="play-button">
+                                <button class="btn btn-secondary">게임입장</button>
+                            </div>
+                            <div class="footer">
+                                <div class="title">
+                                    <h5>퀵스핀</h5>
+                                    <span>QUICKSPIN</span>
+                                </div>
+                                <div class="logo-icon">
+                                    <img src="images/providers/slot-logo-providers/quickspin.png"/>
+                                </div>
+                            </div>
+                        </a>
+                        <a class="game-card">
+                            <div class="body">
+                                <div class="game-img animate__animated  animate__bounceIn">
+                                    <img src="images/providers/slot-providers/kironinteractive.png"/>
+                                </div>
+                            </div>
+                            <div class="play-button">
+                                <button class="btn btn-secondary">게임입장</button>
+                            </div>
+                            <div class="footer">
+                                <div class="title">
+                                    <h5>키론</h5>
+                                    <span>KIRONINTERACTIVE</span>
+                                </div>
+                                <div class="logo-icon">
+                                    <img src="images/providers/slot-logo-providers/kironinteractive.png"/>
+                                </div>
+                            </div>
+                        </a>
+                        <a class="game-card">
+                            <div class="body">
+                                <div class="game-img animate__animated  animate__bounceIn">
+                                    <img src="images/providers/slot-providers/fantasmagames.png"/>
+                                </div>
+                            </div>
+                            <div class="play-button">
+                                <button class="btn btn-secondary">게임입장</button>
+                            </div>
+                            <div class="footer">
+                                <div class="title">
+                                    <h5>판타즈마</h5>
+                                    <span>FANTASMAGAMES</span>
+                                </div>
+                                <div class="logo-icon">
+                                    <img src="images/providers/slot-logo-providers/fantasmagames.png"/>
+                                </div>
+                            </div>
+                        </a>
+                        <a class="game-card">
+                            <div class="body">
+                                <div class="game-img animate__animated  animate__bounceIn">
+                                    <img src="images/providers/slot-providers/pushgaming.png"/>
+                                </div>
+                            </div>
+                            <div class="play-button">
+                                <button class="btn btn-secondary">게임입장</button>
+                            </div>
+                            <div class="footer">
+                                <div class="title">
+                                    <h5>푸쉬게이밍</h5>
+                                    <span>PUSHGAMING</span>
+                                </div>
+                                <div class="logo-icon">
+                                    <img src="images/providers/slot-logo-providers/pushgaming.png"/>
+                                </div>
+                            </div>
+                        </a>
+                        <a class="game-card">
+                            <div class="body">
+                                <div class="game-img animate__animated  animate__bounceIn">
+                                    <img src="images/providers/slot-providers/pragmatic.png"/>
+                                </div>
+                            </div>
+                            <div class="play-button">
+                                <button class="btn btn-secondary">게임입장</button>
+                            </div>
+                            <div class="footer">
+                                <div class="title">
+                                    <h5>프라그마틱</h5>
+                                    <span>PRAGMATIC</span>
+                                </div>
+                                <div class="logo-icon">
+                                    <img src="images/providers/slot-logo-providers/pragmatic.png"/>
+                                </div>
+                            </div>
+                        </a>
+                        <a class="game-card">
+                            <div class="body">
+                                <div class="game-img animate__animated  animate__bounceIn">
+                                    <img src="images/providers/slot-providers/printstudios.png"/>
+                                </div>
+                            </div>
+                            <div class="play-button">
+                                <button class="btn btn-secondary">게임입장</button>
+                            </div>
+                            <div class="footer">
+                                <div class="title">
+                                    <h5>프린트스튜디오</h5>
+                                    <span>printstudios</span>
+                                </div>
+                                <div class="logo-icon">
+                                    <img src="images/providers/slot-logo-providers/printstudios.png"/>
+                                </div>
+                            </div>
+                        </a>
+                        <a class="game-card">
+                            <div class="body">
+                                <div class="game-img animate__animated  animate__bounceIn">
+                                    <img src="images/providers/slot-providers/playson.png"/>
+                                </div>
+                            </div>
+                            <div class="play-button">
+                                <button class="btn btn-secondary">게임입장</button>
+                            </div>
+                            <div class="footer">
+                                <div class="title">
+                                    <h5>플레이슨</h5>
+                                    <span>playson</span>
+                                </div>
+                                <div class="logo-icon">
+                                    <img src="images/providers/slot-logo-providers/playson.png"/>
+                                </div>
+                            </div>
+                        </a>
+                        <a class="game-card">
+                            <div class="body">
+                                <div class="game-img animate__animated  animate__bounceIn">
+                                    <img src="images/providers/slot-providers/playngo.png"/>
+                                </div>
+                            </div>
+                            <div class="play-button">
+                                <button class="btn btn-secondary">게임입장</button>
+                            </div>
+                            <div class="footer">
+                                <div class="title">
+                                    <h5>플레이엔고</h5>
+                                    <span>playngo</span>
+                                </div>
+                                <div class="logo-icon">
+                                    <img src="images/providers/slot-logo-providers/playngo.png"/>
+                                </div>
+                            </div>
+                        </a>
+                        <a class="game-card">
+                            <div class="body">
+                                <div class="game-img animate__animated  animate__bounceIn">
+                                    <img src="images/providers/slot-providers/playpearls.png"/>
+                                </div>
+                            </div>
+                            <div class="play-button">
+                                <button class="btn btn-secondary">게임입장</button>
+                            </div>
+                            <div class="footer">
+                                <div class="title">
+                                    <h5>플레이펄스</h5>
+                                    <span>PLAYPEARLS</span>
+                                </div>
+                                <div class="logo-icon">
+                                    <img src="images/providers/slot-logo-providers/playpearls.png"/>
+                                </div>
+                            </div>
+                        </a>
+                        <a class="game-card">
+                            <div class="body">
+                                <div class="game-img animate__animated  animate__bounceIn">
+                                    <img src="images/providers/slot-providers/habanero.png"/>
+                                </div>
+                            </div>
+                            <div class="play-button">
+                                <button class="btn btn-secondary">게임입장</button>
+                            </div>
+                            <div class="footer">
+                                <div class="title">
+                                    <h5>하바네로</h5>
+                                    <span>habanero</span>
+                                </div>
+                                <div class="logo-icon">
+                                    <img src="images/providers/slot-logo-providers/habanero.png"/>
+                                </div>
+                            </div>
+                        </a>
+                        <a class="game-card">
+                            <div class="body">
+                                <div class="game-img animate__animated  animate__bounceIn">
+                                    <img src="images/providers/slot-providers/hacksawgaming.png"/>
+                                </div>
+                            </div>
+                            <div class="play-button">
+                                <button class="btn btn-secondary">게임입장</button>
+                            </div>
+                            <div class="footer">
+                                <div class="title">
+                                    <h5>핵소게이밍</h5>
+                                    <span>HACKSAWGAMING</span>
+                                </div>
+                                <div class="logo-icon">
+                                    <img src="images/providers/slot-logo-providers/hacksawgaming.png"/>
+                                </div>
+                            </div>
+                        </a>
+                        <a class="game-card">
+                            <div class="body">
+                                <div class="game-img animate__animated  animate__bounceIn">
+                                    <img src="images/providers/slot-providers/cq9.png"/>
+                                </div>
+                            </div>
+                            <div class="play-button">
+                                <button class="btn btn-secondary">게임입장</button>
+                            </div>
+                            <div class="footer">
+                                <div class="title">
+                                    <h5>CQ9</h5>
+                                    <span>CQ9</span>
+                                </div>
+                                <div class="logo-icon">
+                                    <img src="images/providers/slot-logo-providers/cq9.png"/>
+                                </div>
+                            </div>
+                        </a>
+                        <a class="game-card">
+                            <div class="body">
+                                <div class="game-img animate__animated  animate__bounceIn">
+                                    <img src="images/providers/slot-providers/pgsoft.png"/>
+                                </div>
+                            </div>
+                            <div class="play-button">
+                                <button class="btn btn-secondary">게임입장</button>
+                            </div>
+                            <div class="footer">
+                                <div class="title">
+                                    <h5>PGSOFT</h5>
+                                    <span>PGSOFT</span>
+                                </div>
+                                <div class="logo-icon">
+                                    <img src="images/providers/slot-logo-providers/pgsoft.png"/>
+                                </div>
+                            </div>
+                        </a>
+                        <a class="game-card">
+                            <div class="body">
+                                <div class="game-img animate__animated  animate__bounceIn">
+                                    <img src="images/providers/slot-providers/tpg.png"/>
+                                </div>
+                            </div>
+                            <div class="play-button">
+                                <button class="btn btn-secondary">게임입장</button>
+                            </div>
+                            <div class="footer">
+                                <div class="title">
+                                    <h5>TPG</h5>
+                                    <span>TPG</span>
+                                </div>
+                                <div class="logo-icon">
+                                    <img src="images/providers/slot-logo-providers/tpg.png"/>
+                                </div>
+                            </div>
+                        </a>
+                        <a class="game-card">
+                            <div class="body">
+                                <div class="game-img animate__animated  animate__bounceIn">
+                                    <img src="images/providers/slot-providers/ttg.png"/>
+                                </div>
+                            </div>
+                            <div class="play-button">
+                                <button class="btn btn-secondary">게임입장</button>
+                            </div>
+                            <div class="footer">
+                                <div class="title">
+                                    <h5>TTG</h5>
+                                    <span>TTG</span>
+                                </div>
+                                <div class="logo-icon">
+                                    <img src="images/providers/slot-logo-providers/ttg.png"/>
+                                </div>
+                            </div>
+                        </a>
+                        <a class="game-card">
+                            <div class="body">
+                                <div class="game-img animate__animated  animate__bounceIn">
+                                    <img src="images/providers/slot-providers/avatarux.png"/>
+                                </div>
+                            </div>
+                            <div class="play-button">
+                                <button class="btn btn-secondary">게임입장</button>
+                            </div>
+                            <div class="footer">
+                                <div class="title">
+                                    <h5>avatarux</h5>
+                                    <span>avatarux</span>
+                                </div>
+                                <div class="logo-icon">
+                                    <img src="images/providers/slot-logo-providers/avatarux.png"/>
+                                </div>
+                            </div>
+                        </a>
+                        <a class="game-card">
+                            <div class="body">
+                                <div class="game-img animate__animated  animate__bounceIn">
+                                    <img src="images/providers/slot-providers/reloadedgaming.png"/>
+                                </div>
+                            </div>
+                            <div class="play-button">
+                                <button class="btn btn-secondary">게임입장</button>
+                            </div>
+                            <div class="footer">
+                                <div class="title">
+                                    <h5>reloadedgaming</h5>
+                                    <span>reloadedgaming</span>
+                                </div>
+                                <div class="logo-icon">
+                                    <img src="images/providers/slot-logo-providers/reloadedgaming.png"/>
+                                </div>
+                            </div>
+                        </a>
+                        <a class="game-card">
+                            <div class="body">
+                                <div class="game-img animate__animated  animate__bounceIn">
+                                    <img src="images/providers/slot-providers/manaplay.png"/>
+                                </div>
+                            </div>
+                            <div class="play-button">
+                                <button class="btn btn-secondary">게임입장</button>
+                            </div>
+                            <div class="footer">
+                                <div class="title">
+                                    <h5>manaplay</h5>
+                                    <span>manaplay</span>
+                                </div>
+                                <div class="logo-icon">
+                                    <img src="images/providers/slot-logo-providers/manaplay.png"/>
+                                </div>
+                            </div>
+                        </a>
+                        <a class="game-card">
+                            <div class="body">
+                                <div class="game-img animate__animated  animate__bounceIn">
+                                    <img src="images/providers/slot-providers/fugaso.png"/>
+                                </div>
+                            </div>
+                            <div class="play-button">
+                                <button class="btn btn-secondary">게임입장</button>
+                            </div>
+                            <div class="footer">
+                                <div class="title">
+                                    <h5>FUGASO</h5>
+                                    <span>FUGASO</span>
+                                </div>
+                                <div class="logo-icon">
+                                    <img src="images/providers/slot-logo-providers/fugaso.png"/>
+                                </div>
+                            </div>
+                        </a>
+                        <a class="game-card">
+                            <div class="body">
+                                <div class="game-img animate__animated  animate__bounceIn">
+                                    <img src="images/providers/slot-providers/bigtimegaming.png"/>
+                                </div>
+                            </div>
+                            <div class="play-button">
+                                <button class="btn btn-secondary">게임입장</button>
+                            </div>
+                            <div class="footer">
+                                <div class="title">
+                                    <h5>BIGTIMEGAMING</h5>
+                                    <span>BIGTIMEGAMING</span>
+                                </div>
+                                <div class="logo-icon">
+                                    <img src="images/providers/slot-logo-providers/bigtimegaming.png"/>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </seciton>
+        <section class="list-section">
+            <div class="container board-content">
+                <div class="board-edges board-item">
+                    <div class="header">
+                        <div class="left text-gold">
+                            <i class="fa-solid fa-crown"></i>
+                            <span>Event</span>
+                        </div>
+                        <div class="right">
+                            <i class="fa-solid fa-eye"></i>
+                            <a href="#">더보기</a>
+                        </div>
+                    </div>
+                    <div class="body event-items myWrapper">
+                        <div class="body">
+                            <div class="body-item">
+                                <span class="title">※ Daily Event Upgrade Guide ※</span>
+                                <span class="date">2022-04-13</span>
+                            </div>
+                            <div class="body-item">
+                                <span class="title">※ 5% Payback Event ※</span>
+                                <span class="date">2022-04-13</span>
+                            </div>
+                            <div class="body-item">
+                                <span class="title">※ Recommendation event information ※</span>
+                                <span class="date">2022-04-13</span>
+                            </div>
+                            <div class="body-item">
+                                <span class="title">※ Coupon use event ※</span>
+                                <span class="date">2022-04-13</span>
+                            </div>
+                            <div class="body-item">
+                                <span class="title">※ Coin account advance application event ※</span>
+                                <span class="date">2022-04-13</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="board-center board-item">
+                    <div class="tabs">
+                        <a href="javascript:void(0)" class="tab-item active" data-tab="withdraw">실시간출금</a>
+                        <a href="javascript:void(0)" class="tab-item" data-tab="deposit">실시간 입금</a>
+                    </div>
+                    <div class="center-body">
+                        <div class="left">
+                            <div class="body withdraw">
+                                <div class="tr">
+                                    <div class="user"> <span> devdr*** </span> </div>
+                                    <div class="amount"> <span>3,000,000 원</span> </div>
+                                    <div class="date"> <span>04-16 13:31</span> </div>
+                                </div>
+                                <div class="tr">
+                                    <div class="user"> <span> cym8*** </span> </div>
+                                    <div class="amount"> <span>560,000 원</span> </div>
+                                    <div class="date"> <span>04-16 13:10</span> </div>
+                                </div>
+                                <div class="tr">
+                                    <div class="user"> <span> kizvr*** </span> </div>
+                                    <div class="amount"> <span>50,000 원</span> </div>
+                                    <div class="date"> <span>04-16 13:03</span> </div>
+                                </div>
+                                <div class="tr">
+                                    <div class="user"> <span> kch*** </span> </div>
+                                    <div class="amount"> <span>190,000 원</span> </div>
+                                    <div class="date"> <span>04-16 13:02</span> </div>
+                                </div>
+                                <div class="tr">
+                                    <div class="user"> <span> cw*** </span> </div>
+                                    <div class="amount"> <span>2,000,000 원</span> </div>
+                                    <div class="date"> <span>04-16 11:03</span> </div>
+                                </div>
+                                <div class="tr">
+                                    <div class="user"> <span> elwyo*** </span> </div>
+                                    <div class="amount"> <span>230,000 원</span> </div>
+                                    <div class="date"> <span>04-16 10:15</span> </div>
+                                </div>
+                                <div class="tr">
+                                    <div class="user"> <span> apwhp*** </span> </div>
+                                    <div class="amount"> <span>340,000 원</span> </div>
+                                    <div class="date"> <span>04-16 09:17</span> </div>
+                                </div>
+                                <div class="tr">
+                                    <div class="user"> <span> tcdqg*** </span> </div>
+                                    <div class="amount"> <span>690,000 원</span> </div>
+                                    <div class="date"> <span>04-16 07:01</span> </div>
+                                </div>
+                                <div class="tr">
+                                    <div class="user"> <span> voixt*** </span> </div>
+                                    <div class="amount"> <span>970,000 원</span> </div>
+                                    <div class="date"> <span>04-16 05:11</span> </div>
+                                </div>
+                                <div class="tr">
+                                    <div class="user"> <span> ykwnr*** </span> </div>
+                                    <div class="amount"> <span>4,200,000 원</span> </div>
+                                    <div class="date"> <span>04-16 04:05</span> </div>
+                                </div>
+                                <div class="tr">
+                                    <div class="user"> <span> devdr*** </span> </div>
+                                    <div class="amount"> <span>3,000,000 원</span> </div>
+                                    <div class="date"> <span>04-16 13:31</span> </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="right">
+                            <div class="body deposit off">
+                                <div class="tr">
+                                    <div class="user"> <span> will*** </span> </div>
+                                    <div class="amount"> <span>3,000,000 원</span> </div>
+                                    <div class="date"> <span>04-16 13:31</span> </div>
+                                </div>
+                                <div class="tr">
+                                    <div class="user"> <span> will*** </span> </div>
+                                    <div class="amount"> <span>560,000 원</span> </div>
+                                    <div class="date"> <span>04-16 13:10</span> </div>
+                                </div>
+                                <div class="tr">
+                                    <div class="user"> <span> will*** </span> </div>
+                                    <div class="amount"> <span>560,000 원</span> </div>
+                                    <div class="date"> <span>04-16 13:10</span> </div>
+                                </div>
+                                <div class="tr">
+                                    <div class="user"> <span> will*** </span> </div>
+                                    <div class="amount"> <span>560,000 원</span> </div>
+                                    <div class="date"> <span>04-16 13:10</span> </div>
+                                </div>
+                                <div class="tr">
+                                    <div class="user"> <span> will*** </span> </div>
+                                    <div class="amount"> <span>560,000 원</span> </div>
+                                    <div class="date"> <span>04-16 13:10</span> </div>
+                                </div>
+                                <div class="tr">
+                                    <div class="user"> <span> will*** </span> </div>
+                                    <div class="amount"> <span>560,000 원</span> </div>
+                                    <div class="date"> <span>04-16 13:10</span> </div>
+                                </div>
+                                <div class="tr">
+                                    <div class="user"> <span> will*** </span> </div>
+                                    <div class="amount"> <span>560,000 원</span> </div>
+                                    <div class="date"> <span>04-16 13:10</span> </div>
+                                </div>
+                                <div class="tr">
+                                    <div class="user"> <span> will*** </span> </div>
+                                    <div class="amount"> <span>560,000 원</span> </div>
+                                    <div class="date"> <span>04-16 13:10</span> </div>
+                                </div>
+                                <div class="tr">
+                                    <div class="user"> <span> will*** </span> </div>
+                                    <div class="amount"> <span>560,000 원</span> </div>
+                                    <div class="date"> <span>04-16 13:10</span> </div>
+                                </div>
+                                <div class="tr">
+                                    <div class="user"> <span> will*** </span> </div>
+                                    <div class="amount"> <span>560,000 원</span> </div>
+                                    <div class="date"> <span>04-16 13:10</span> </div>
+                                </div>
+                                <div class="tr">
+                                    <div class="user"> <span> will*** </span> </div>
+                                    <div class="amount"> <span>560,000 원</span> </div>
+                                    <div class="date"> <span>04-16 13:10</span> </div>
+                                </div>
+                                <div class="tr">
+                                    <div class="user"> <span> will*** </span> </div>
+                                    <div class="amount"> <span>560,000 원</span> </div>
+                                    <div class="date"> <span>04-16 13:10</span> </div>
+                                </div>
+                                <div class="tr">
+                                    <div class="user"> <span> will*** </span> </div>
+                                    <div class="amount"> <span>560,000 원</span> </div>
+                                    <div class="date"> <span>04-16 13:10</span> </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="board-edges board-item">
+                    <div class="header">
+                        <div class="left text-gold">
+                            <i class="fa-solid fa-bell-concierge"></i>
+                            <span>Notice</span>
+                        </div>
+                        <div class="right">
+                            <i class="fa-solid fa-eye"></i>
+                            <a href="#">더보기</a>
+                        </div>
+                    </div>
+                    <div class="body notice-items">
+                        <div class="body">
+                            <div class="body-item">
+                            <span class="title">※ Required reading related to coin deposit ※</span>
+                                <span class="date">2022-04-13</span>
+                            </div>
+                            <div class="body-item">
+                            <span class="title">※ Lifetime domain related notice ※</span>
+                                <span class="date">2022-04-13</span>
+                            </div>
+                            <div class="body-item">
+                            <span class="title">※ Kakao Talk Information ※</span>
+                                <span class="date">2022-04-13</span>
+                            </div>
+                            <div class="body-item">
+                            <span class="title">※ #Notice of emergency account change# ※</span>
+                                <span class="date">2022-04-13</span>
+                            </div>
+                            <div class="body-item">
+                            <span class="title">※ Benefits by level ※</span>
+                                <span class="date">2022-04-13</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="contact-section">
+            <div class="container">
+                <div class="contact-item">
+                    <div class="contact-icon"><i class="fa-brands fa-telegram"></i></div>
+                    <span class="title">@dowinntg</span>
+                </div>
+                <div class="contact-item">
+                    <div class="contact-icon"><i class="fa-solid fa-phone"></i></div>
+                    <span class="title">+63129044564</span>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <div class="footer-top">
+                <div class="provider-logo left">
+                    <img src="images/providers/logo/ag.png">
+                    <img src="images/providers/logo/microgaming.png">
+                    <img src="images/providers/logo/evolution.png">
+                    <img src="images/providers/logo/pragmatic.png">
+                    <img src="images/providers/logo/oriental.png">
+                    <img class="no-shadow" src="images/providers/logo/sexygaming.png">
+                    <img src="images/providers/logo/dreamgaming.png">
+                    <img src="images/providers/logo/cq9.png">
+                </div>
+                <div class="logo-container">
+                    <img src="images/logo.png" alt="Dowinn logo"/>
+                </div>
+                <div class="provider-logo right">
+                    <img src="images/providers/logo/bng.png">
+                    <img src="images/providers/logo/habanero.png">
+                    <img src="images/providers/logo/netent.png">
+                    <img src="images/providers/logo/redtiger.png">
+                    <img src="images/providers/logo/evoplay.png">
+                    <img src="images/providers/logo/gameplay.png">
+                    <img src="images/providers/logo/playngo.png">
+                    <img src="images/providers/logo/genesis.png">
+                </div>
+            </div>
+            <div class="footer-bottom">
+                ⓒ COPYRIGHT WHITE CASINO 2023 ALL RIGHTS RESERVED.
+            </div>
+        </footer>
+    </main>
+    <button class="scroll-top">
+        <i class="fa-solid fa-caret-up"></i>
+    </button>
+    <script src="js/layout.js" type="text/javascript"></script>
+</body>
+</html>
